@@ -22,7 +22,7 @@ const Bottomnav = () => {
           </li>
           <Link href="/create-event">
             <li className="flex space-y-1 flex-col items-center relative">
-              <div className="absolute bg-white p-6 border-2 border-brand bottom-3 rounded-full">
+              <div className="absolute bg-white p-6 border-2 border-brand -bottom-3 rounded-full">
                 <MdAdd className="icon text-brand" />
               </div>
               <span className="font-medium">Add</span>
