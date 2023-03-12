@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="2xl:max-w-6xl 2xl:mx-auto">
         <Nav />
         {children}
         <Bottomnav />

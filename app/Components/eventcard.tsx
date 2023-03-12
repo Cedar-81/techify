@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const Eventcard = () => {
   return (
-    <div className="relative md:w-[25rem] md:space-y-6 md:shadow-md cursor-pointer w-full xl:pb-0 xl:w-[30rem] xl:h-[21rem] xl:min-h-[20rem] xl:flex pb-6 bg-white overflow-hidden min-h-[25rem] shadow-sm rounded-xl border-2 space-y-8">
+    <div className="relative lg:w-[20rem] md:space-y-6 md:shadow-md cursor-pointer w-full  pb-6 bg-white overflow-hidden min-h-[25rem] shadow-sm rounded-xl space-y-8">
       {/* CARD IMAGE */}
-      <div className="relative w-full h-[7rem] flex xl:h-full xl:min-w-[35%]">
+      <div className="relative w-full h-[7rem] flex ">
         <Image
           src="/assets/cardimg.png"
           alt=""
@@ -48,13 +48,13 @@ const Eventcard = () => {
 
           {/* PARAGRAPH AND BOOKING DETAILS */}
           <div className="space-y-2">
-            <p className="text-sm md:text-xs">
+            <p className="text-sm lg:text-xs">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className="text-sm md:text-xs">
+            <div className="text-sm lg:text-xs">
               <p className="flex items-center gap-2">
                 <RiMoneyDollarCircleLine className="" />
                 <span className="">$13.00</span>
@@ -73,7 +73,7 @@ const Eventcard = () => {
 
         {/* CALL TO ACTION */}
         <div className="flex items-center gap-2 md:mt-8 px-4">
-          <button className="btn border-2 border-gray-800 md:text-sm">
+          <button className="btn border-2 border-gray-800 lg:text-sm">
             Book Now
           </button>
           <button className="">

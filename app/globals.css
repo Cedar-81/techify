@@ -28,6 +28,10 @@ main {
     @apply px-6 py-2 rounded-full h-11;
   }
 
+  .tag-btn {
+    @apply btn border-2 border-gray-800 min-w-max
+  }
+
   .dot {
     @apply h-2 w-2 bg-black rounded-full;
   }

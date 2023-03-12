@@ -9,7 +9,7 @@ const Events = () => {
         <Tags />
       </div>
 
-      <div className="flex flex-col md:flex-row md:flex-wrap md:space-y-0 md:justify-evenly md:gap-12 space-y-8 mt-12">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 justify-evenly justify-items-center gap-y-8 lg:gap-y-16 xl:gap-y-10 grid-cols-1 mt-12">
         <Eventcard />
         <Eventcard />
         <Eventcard />
