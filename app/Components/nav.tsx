@@ -4,7 +4,7 @@ import { IoIosAdd } from "react-icons/io";
 
 const Nav = () => {
   return (
-    <nav className="flex fixed z-20 text-lg h-[4rem] 2xl:max-w-6xl bg-black justify-between px-[5%] items-center ring-2 ring-brand/20 shadow-md text-white w-full ">
+    <nav className="flex fixed z-30 text-lg h-[4rem] 2xl:max-w-6xl bg-black justify-between px-[5%] items-center ring-2 ring-brand/20 shadow-md text-white w-full ">
       {/* CREATE NAVBAR */}
       <img className="h-10" src="./assets/techifylogolight.svg" />
       <ul className="hidden md:flex w-[40%] items-center justify-between">
