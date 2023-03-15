@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Eventcard from "./eventcard";
 import Tags from "./tags";
 
@@ -10,10 +11,18 @@ const Events = () => {
       </div>
 
       <div className="grid md:grid-cols-2 xl:grid-cols-3 justify-evenly justify-items-center gap-y-8 lg:gap-y-16 xl:gap-y-10 grid-cols-1 mt-12">
-        <Eventcard />
-        <Eventcard />
-        <Eventcard />
-        <Eventcard />
+        <Link href="event-detail/123">
+          <Eventcard />
+        </Link>
+        <Link href="event-detail/123">
+          <Eventcard />
+        </Link>
+        <Link href="event-detail/123">
+          <Eventcard />
+        </Link>
+        <Link href="event-detail/123">
+          <Eventcard />
+        </Link>
       </div>
     </div>
   );
