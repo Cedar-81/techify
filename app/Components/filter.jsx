@@ -1,11 +1,10 @@
 import { GoLocation } from "react-icons/go";
 import { BiCategory } from "react-icons/bi";
 import { BsCalendar2Event, BsFilter } from "react-icons/bs";
-import { Fragment } from "react";
 
 const Filter = () => {
   return (
-    <Fragment>
+    <div className="">
       <button className="btn md:hidden flex my-4 gap-2 border-2 mx-auto border-gray-300">
         <BsFilter className="h-7 w-7" />
         <span className="text-lg">Filters</span>
@@ -33,7 +32,7 @@ const Filter = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

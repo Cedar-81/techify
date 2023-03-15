@@ -1,9 +1,10 @@
+"use client";
 import Filter from "@/app/Components/filter";
 import * as Form from "@radix-ui/react-form";
 
 const Description = () => {
   return (
-    <div className="pt-10 px-[5%] space-y-6 mb-24 lg:space-y-16">
+    <Form.Root className="pt-10 px-[5%] space-y-6 lg:space-y-16">
       <Form.Field name="event-title" className="max-w-[40rem] mx-auto">
         <Form.Label className="text-lg font-medium text-gray-500">
           Event title
@@ -22,16 +23,12 @@ const Description = () => {
         </Form.Control>
       </Form.Field>
 
-      <div className="lg:text-gray-800">
-        <Filter />
-      </div>
-
       <Form.Submit asChild className="w-full ">
         <div className="w-full ">
           <button className="floating-btn">Publish</button>
         </div>
       </Form.Submit>
-    </div>
+    </Form.Root>
   );
 };
 
