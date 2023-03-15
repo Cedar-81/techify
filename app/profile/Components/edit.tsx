@@ -63,9 +63,7 @@ const Edit = () => {
       </div>
 
       <div className="w-full ">
-        <button className="btn bg-brand text-white mt-20 px-10 fixed bottom-24 right-10 shadow-lg">
-          Save
-        </button>
+        <button className="floating-btn">Save</button>
       </div>
     </div>
   );

@@ -14,7 +14,9 @@ function Search() {
           placeholder="Search"
         />
       </div>
-      <Filter />
+      <div className="text-white">
+        <Filter />
+      </div>
     </Fragment>
   );
 }

@@ -10,7 +10,7 @@ const Filter = () => {
         <BsFilter className="h-7 w-7" />
         <span className="text-lg">Filters</span>
       </button>
-      <div className="hidden md:w-[40rem] mx-auto px-8 w-full text-white my-4 md:flex justify-between">
+      <div className="hidden md:w-[40rem] mx-auto px-8 w-full my-4 md:flex justify-between">
         <div className="flex">
           <GoLocation className="h-6 w-6" />
           <div className="ml-1">
