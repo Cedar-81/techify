@@ -1,38 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Techify
 
-## Getting Started
+Techify is a tech event booking platform built with Next.js, Tailwind CSS, TypeScript, and Radix. Its design has been inspired by dribbble.com and it aims to be simple yet effective for users to discover and book tech events in their area. Please note that Techify is still a work in progress and some features may not be fully implemented yet.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Techify currently offers the following features:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Browse and search tech events by date, location, and category.
+- View event details, including descriptions, speakers, schedule, and location map.
+- Book tickets and receive confirmation emails.
+- Create and manage your own events as an organizer (coming soon).
+- Share events on social media (coming soon).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+We're constantly working on improving Techify and adding new features. If you have any suggestions or feedback, please feel free to create an issue or a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+To install Techify, you can follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository: `git clone https://github.com/your-username/techify.git`
+2. Install dependencies: `npm install`
+3. Create a `.env.local` file in the root directory and add the necessary environment variables (see `.env.example`).
+4. Start the development server: `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Techify has been designed to work with modern web browsers and responsive devices. Please ensure that you have the latest version of your web browser installed and a stable internet connection.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+Once you have installed Techify, you can visit `http://localhost:3000` in your web browser to access the app. You can then browse, search, and book tech events that are available in your area.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you're an organizer, you can also create and manage your own events (coming soon). More details on this will be provided in the future.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+We welcome contributions from the community. If you would like to contribute to Techify, please follow these steps:
+
+1. Fork this repository.
+2. Create a new branch: `git checkout -b my-feature-branch`
+3. Make changes and commit them: `git commit -am 'Add my feature'`
+4. Push to the branch: `git push origin my-feature-branch`
+5. Create a new pull request.
+
+Please ensure that your code follows our coding guidelines and has been thoroughly tested before submitting a pull request.
+
+## License
+
+Techify is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+---
+
+Thank you for your interest in Techify! We hope you find it useful for discovering and booking tech events in your area. If you have any questions or issues, please feel free to contact us or create an issue.
